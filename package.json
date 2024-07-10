@@ -1,6 +1,6 @@
 {
   "name": "jsonresume-theme-macea",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Simple theme for JSON Resume. Based on macchiato, which based on caffeine-theme.",
   "author": "Marco Acea (Fork created by Alessandro Biondi)",
   "repository": {
