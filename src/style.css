@@ -59,10 +59,6 @@
   src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v16/S6u9w4BMUTPHh6UVSwiPHA.ttf) format('truetype');
 }
 
-html {
-  background: white;
-}
-
 body {
   font-family: "Lato", Helvetica, Arial, sans-serif;
   font-weight: 400;
