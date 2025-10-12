@@ -9,11 +9,11 @@
                     <h4 class="bold capitalize">{{level}}</h4>
                 {{/if}}
                 {{#if keywords.length}}
-                    <div class="minimal flex-container">
+                    <ul class="minimal skills-vertical-list">
                         {{#each keywords}}
-                            <h6 class="main-skill skill">{{.}}</h6>
+                            <li><h6 class="main-skill skill-vertical">{{.}}</h6></li>
                         {{/each}}
-                    </div>
+                    </ul>
                 {{/if}}
             </section>
         {{/each}}

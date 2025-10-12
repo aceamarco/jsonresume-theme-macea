@@ -1,0 +1,133 @@
+{
+    "basics" : {
+        "name" : "Marco Acea",
+        "email" : "aceamarco@gmail.com",
+        "phone" : "(786) 470-9891",
+        "website" : "aceamarco.dev",
+        "profiles" : [{
+            "network" : "LinkedIn",
+            "username" : "marco-acea",
+            "url" : "https://www.linkedin.com/in/marco-acea/"
+        },{
+            "network" : "Github",
+            "username" : "aceamarco",
+            "url" : "https://github.com/aceamarco"
+        }]
+    },
+    "education" : [{
+        "institution" : "Carnegie Mellon University",
+        "area" : "Electrical and Computer Engineering",
+        "studyType" : "Bachelor's of Science",
+        "startDate" : "2018-08",
+        "endDate" : "2022-12",
+        "courses" : [
+            "Structure and Design of Digital Systems",
+            "Web App Development",
+            "Principles of Imperative Computing",
+            "Logic Design and Verification",
+            "Intro to Embedded Systems",
+            "Fundamentals of Embedded Control"
+        ]
+    }],
+    "skills": [
+        {
+        "name" : "Programming Languages",
+        "keywords" : [
+            "Python",
+            "C++",
+            "TypeScript",
+            "JavaScript"
+            ]
+        },
+        {
+        "name" : "Software/Frameworks",
+        "keywords" : [
+            "OpenAI API",
+            "🤗 Hugging Face",
+            "PyTorch",
+            "scikit-learn",
+            "pandas",
+            "Dask",
+            "LLM Prompt Engineering",
+            "Distributed Systems",
+            "Bloomberg API",
+            "Alpaca",
+            "Algorithmic Trading",
+            "Risk Management",
+            "Real-time Systems",
+            "Feature Engineering",
+            "Production ML"
+        ]
+        }
+    ],
+    "projects" : [{
+        "name" : "Mid-Frequency ML Trading System",
+        "highlights" : [
+            "Built electronic trading system processing S&P 500 data with neural networks (294K+ parameters) achieving 60%+ model accuracy and sub-100ms signal generation for real-time execution.",
+            "Conceived and developed production-grade system with risk management, position sizing, and automated model retraining, featuring real-time P&L tracking and order execution via Alpaca API.",
+            "Implemented monitoring stack with Prometheus/Grafana tracking win rates, fill rates, model/system latency metrics across 500+ symbols with 50+ technical indicators."
+        ],
+        "keywords" : [
+            "Algorithmic Trading",
+            "Risk Management",
+            "Real-time Systems",
+            "S&P 500",
+            "Feature Engineering",
+            "Production ML"
+        ]
+    },{
+        "name" : "ArgoCD AppSource Controller",
+        "startDate" : "2021-05",
+        "endDate" : "2021-08",
+        "highlights" : [
+            "Built secure automation platform enabling self-service application deployment with multi-tenant access controls and safety guardrails, open-sourced and officially adopted into vetted community collection."
+        ],
+        "keywords" : [
+            "Golang",
+            "Kubernetes",
+            "ArgoCD"
+        ]}],
+    "work" : [
+        {
+            "company": "Bloomberg L.P",
+            "position": "Software Engineer - Electronic Trading Order Management Systems (ETOMS)",
+            "startDate": "2024-07",
+            "endDate": "",
+            "highlights": [
+                "Designed and delivered critical features for global trading platform serving thousands of financial firms, processing millions of daily transactions.",
+                "Built comprehensive monitoring and analytics systems tracking millions of user events, providing real-time insights and operational resilience.",
+                "Developed high-performance dashboards and data visualizations enabling traders to efficiently manage complex workflows across global markets.",
+                "Built self-optimizing LLM systems with advanced prompt engineering, creating intelligent automation that continuously refines model performance and accelerates development velocity."
+            ]
+        },        
+        {
+            "company" : "Boeing",
+            "position" : "Software Engineer",
+            "startDate" : "2023-03",
+            "endDate" : "2024-04",
+            "highlights" : [
+                "Developed automated UI integration tests using Selenium for web applications which significantly improved code base test coverage",
+                "Developed Virtual Machine devices for the High Fidelity Digital Twin Program"
+            ]
+        },
+        {
+            "company" : "Intuit",
+            "position" : "Software Engineering Intern - DevX, Argo Project",
+            "startDate" : "2021-05",
+            "endDate" : "2022-08",
+            "highlights" : [
+                "Developed a containerized GraphQL Proxy Service using Typescript, Docker, and Redis for optimization, that protects API services from potentially malicious incoming requests using rate limiting and static query analysis",
+                "Developed new feature for the ArgoCD project that allows non-admin users to safely create Applications and Projects for themselves within a Kubernetes cluster."
+            ]
+        },
+        {
+            "company" : "23andMe",
+            "position" : "Software Engineering Intern",
+            "startDate" : "2020-07",
+            "endDate" : "2020-09",
+            "highlights" : [
+                "Built Flask-based internal application management dashboard for the Application Infrastructure Team, streamlining service monitoring and authentication workflows."
+            ]
+        }
+    ]
+}
