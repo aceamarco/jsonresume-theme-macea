@@ -293,10 +293,12 @@ ul.two-column li {
 
   .page {
     width: 100%;
-    height: 100%;
+    height: auto;
+    min-height: 0;
     margin: 0;
     padding: 36px 0 30px;
     box-shadow: none;
+    border-top: none;
   }
 
   .page .resume-header,
@@ -304,20 +306,25 @@ ul.two-column li {
     padding: 0 22px 0 34px;
   }
 
-  .container {
-    page-break-inside: avoid;
+  .resume-header {
+    break-inside: avoid;
   }
 
-  /* Keep each section entry (job, project, degree, etc.) from splitting across pages */
-  .work-container .item,
-  .project-container .item,
-  .education-container .item,
-  .volunteer-container .item,
-  .awards-container .item,
-  .publications-container .item,
-  .interests-container .item {
-    page-break-inside: avoid;
+  .left-column {
     break-inside: avoid;
+  }
+
+  .item {
+    break-inside: avoid;
+  }
+
+  .title {
+    break-inside: avoid;
+    break-after: avoid;
+  }
+
+  .section-header {
+    break-after: avoid;
   }
 
   .fa-external-link {
