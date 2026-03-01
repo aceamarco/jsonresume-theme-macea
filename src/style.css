@@ -308,8 +308,16 @@ ul.two-column li {
     page-break-inside: avoid;
   }
 
-  .work-container .item {
+  /* Keep each section entry (job, project, degree, etc.) from splitting across pages */
+  .work-container .item,
+  .project-container .item,
+  .education-container .item,
+  .volunteer-container .item,
+  .awards-container .item,
+  .publications-container .item,
+  .interests-container .item {
     page-break-inside: avoid;
+    break-inside: avoid;
   }
 
   .fa-external-link {
